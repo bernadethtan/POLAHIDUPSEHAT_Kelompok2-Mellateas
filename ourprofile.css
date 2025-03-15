@@ -61,10 +61,12 @@ ul li ul.dropdown {
     height: auto;
     margin: 0px 0px;
     margin-left: -50px;
+    z-index: 1;
 }
 
 ul li:hover ul.dropdown {
     display: block;
+    background: linear-gradient(to right, #344e29, #41754c, #608f9d);
 }
 
 .profile-list{
